@@ -1,0 +1,7 @@
+[auth]
+token=1d156b0ad3ae47c8ab67d59bc6d2de79d46d1a3de567443a96556a21a65293ff
+ 
+[defaults]
+org=daojia
+project=
+url=https://jz-homer.daojia-inc.com

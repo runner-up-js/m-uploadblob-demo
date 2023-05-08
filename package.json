@@ -1,0 +1,128 @@
+{
+  "name": "m-uploadblob-demo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "add-module": "add-vue3-module",
+    "build:betaa": "vue-cli-service build --mode betaa --no-module",
+    "build:betab": "vue-cli-service build --mode betab --no-module",
+    "build:betac": "vue-cli-service build --mode betac --no-module",
+    "build:betad": "vue-cli-service build --mode betad --no-module",
+    "build:prod": "vue-cli-service build --mode production --no-module",
+    "build:sandbox": "vue-cli-service build --mode sandbox --no-module",
+    "build:test": "vue-cli-service build --mode test --no-module",
+    "dev": "daojia-vite-cli dev"
+  },
+  "dependencies": {
+    "@daojia/vue3-cli-preset-config": "^2.0.0",
+    "core-js": "^3.8.3",
+    "html2canvas": "^1.4.1",
+    "jz-utils": "^2.0.0",
+    "vant": "^3.0.0",
+    "vue": "^3.2.13",
+    "vue-router": "^4.0.0",
+    "vuex": "^4.0.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^7.2.1",
+    "@commitlint/config-conventional": "^7.1.2",
+    "@daojia/vite-cli": "*",
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-plugin-typescript": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "@vue/eslint-config-standard": "^6.1.0",
+    "@vue/eslint-config-typescript": "^9.1.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "less": "^4.0.0",
+    "less-loader": "^8.0.0",
+    "lint-staged": "^11.1.2",
+    "postcss-plugin-px2rem": "^0.8.1",
+    "stylelint": "^13.0.0",
+    "stylelint-config-standard": "^22.0.0",
+    "typescript": "~4.5.5"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "@vue/standard",
+      "@vue/typescript/recommended"
+    ],
+    "parserOptions": {
+      "parser": "@typescript-eslint/parser",  
+      "ecmaVersion": 2016,
+      "ecmaFeatures": {
+          "legacyDecorators": true
+      }
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "appCode": "",
+  "engines": {
+    "node": ">=12"
+  },
+  "homer": {
+    "dsn": "",
+    "release": "m-uploadblob-demo-map",
+    "ignoreErrors": [
+      "titleForRightButton",
+      "cordova",
+      "cordova already defined",
+      "Unexpected token \"<\"",
+      "Unexpected token \"}\"",
+      "Unexpected token \")\"",
+      "Unexpected identifier \"document\"",
+      "Network Error",
+      "document",
+      "this.gruser.currentSessionId is not a function",
+      "this.user.setGioId is not a function",
+      "Non-Error exception captured with keys: message",
+      "timeout of 5000ms exceeded",
+      "AbortError: The play() request was interrupted by a call to pause(). https://goo.gl/LdLk22",
+      "AbortError: The play() request was interrupted by a call to pause().",
+      "Unexpected token '}'",
+      "payResult is not defined"
+    ]
+  },
+  "middle": {
+    "repoUrl": "",
+    "files": [
+      {
+        "from": "dist/*",
+        "to": "src/app/m-uploadblob-demo/views"
+      }
+    ],
+    "branch": "",
+    "destBranchMapping": {
+      "betaa": "dp73",
+      "betab": "dp74",
+      "betac": "dp75",
+      "betad": "",
+      "sandbox": "box44",
+      "production": ""
+    }
+  },
+  "router": {
+    "mode": "hash",
+    "base": ""
+  },
+  "terminal": "m"
+}
